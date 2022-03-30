@@ -1,0 +1,7 @@
+﻿@model Comment
+<form asp-action="CreateComment" method="post" asp-route-questionId=@Model.Id>
+
+<textarea cols="80" rows="8" name="Comment"></textarea>
+<button type="submit">Confirm</button>
+
+</form>
